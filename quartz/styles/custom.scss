@@ -1,3 +1,7 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+#quartz-body > div.center > div.popover-hint > div > div > ul > li > div > p > time {
+  font-size: 14px;
+}

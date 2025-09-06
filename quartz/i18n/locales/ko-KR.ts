@@ -71,7 +71,7 @@ export default {
       home: "홈페이지로 돌아가기",
     },
     folderContent: {
-      folder: "폴더",
+      folder: "카테고리",
       itemsUnderFolder: ({ count }) => `${count}건의 항목`,
     },
     tagContent: {

@@ -1,12 +1,12 @@
 ---
 longform:
   format: scenes
-  title: eBook
+  title: 독서
   sceneFolder: /
   scenes:
-    - Introduction
-  sceneTemplate: templates/index.md
+    - Intro
+  sceneTemplate: templates/blog.md
   ignoredFiles: []
-created: 2025-09-06T15:31
-updated: 2025-09-06T15:32
+created: 2025-09-06T15:45
+updated: 2025-09-06T15:45
 ---

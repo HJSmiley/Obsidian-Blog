@@ -1,8 +1,10 @@
 ---
 title: Setting up your GitHub repository
+created: 2025-09-06T14:52
+updated: 2025-09-06T15:25
 ---
 
-First, make sure you have Quartz [[index#🪴 Get Started|cloned and setup locally]].
+First, make sure you have Quartz [[docs/index#🪴 Get Started|cloned and setup locally]].
 
 Then, create a new repository on GitHub.com. Do **not** initialize the new repository with `README`, license, or `gitignore` files.
 

@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "얄리얄리얄랑셩",
+    pageTitleSuffix: " - 멀위랑다래랑",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Nanum Gothic",
+        body: "Nanum Gothic",
+        code: "D2 Coding",
       },
       colors: {
         lightMode: {

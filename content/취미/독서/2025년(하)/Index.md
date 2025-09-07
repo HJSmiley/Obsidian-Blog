@@ -15,10 +15,11 @@ longform:
     - 싯다르타
     - 당신 인생의 이야기
     - 치즈 이야기
+    - 갈매기
   sceneTemplate: templates/blog.md
   ignoredFiles: []
 created: 2025-09-07T14:51
-updated: 2025-09-07T17:49
+updated: 2025-09-07T17:54
 ---
 [[위대한 개츠비]]
 

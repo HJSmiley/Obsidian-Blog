@@ -2,7 +2,161 @@
 
 // put your custom CSS here!
 
-@use "themes";
+// 라이트 모드 커스텀 색상 - 우선순위 높이기
+:root[saved-theme="light"] body,
+html[saved-theme="light"] body {
+  // 제목 색상
+  --inline-title-color: #529d52 !important;
+  --h1-color: #128a12 !important;
+  --h2-color: #be7070 !important;
+  --h3-color: #3d7676 !important;
+  --h4-color: #a9ba9d !important;
+  --h5-color: #9dc183 !important;
+  --h6-color: #486e02 !important;
+
+  // 텍스트 색상
+  --text-accent: #529d52 !important;
+  --italic-color: #7c8508 !important;
+  --bold-color: #41b4b4 !important;
+  --text-highlight-bg: #529d52b1 !important;
+
+  // 링크 색상
+  --link-color: #529d52 !important;
+  --link-external-color: #529d52 !important;
+  --link-color-hover: #274b27 !important;
+
+  // 코드 색상
+  --code-normal: #a8c090 !important;
+  --code-background: #070e00 !important;
+  --code-keyword: #c678dd !important;
+  --code-property: #9d527c !important;
+
+  // 인터랙티브 요소
+  --interactive-accent: #529d52 !important;
+  --interactive-accent-hover: #2e7e2e !important;
+  --scrollbar-thumb-bg: #529d52 !important;
+  --scrollbar-active-thumb-bg: #529d52 !important;
+  --indentation-guide-color: #529d52 !important;
+  --nav-item-color-active: #128a12 !important;
+  --nav-indentation-guide-color: #529d52 !important;
+  --icon-color: #274b27 !important;
+}
+
+// 다크 모드 커스텀 색상 - 우선순위 높이기
+:root[saved-theme="dark"] body,
+html[saved-theme="dark"] body {
+  // 배경 색상
+  --background-primary: #000000 !important;
+  --background-primary-alt: #000000 !important;
+  --background-secondary: #000000 !important;
+
+  // 제목 색상
+  --inline-title-color: #2cce10 !important;
+  --h1-color: #2cce10 !important;
+  --h2-color: #be7070 !important;
+  --h3-color: #3d7676 !important;
+  --h4-color: #a9ba9d !important;
+  --h5-color: #9dc183 !important;
+  --h6-color: #486e02 !important;
+
+  // 텍스트 색상
+  --text-accent: #63be63 !important;
+  --italic-color: #d8e43a !important;
+  --bold-color: #41b4b4 !important;
+  --text-highlight-bg: #67c26769 !important;
+
+  // 링크 색상
+  --link-color: #63be63 !important;
+  --link-external-color: #529d52 !important;
+  --link-color-hover: #39ff14 !important;
+
+  // 코드 색상
+  --code-normal: #a8c090 !important;
+  --code-background: #3f542946 !important;
+  --code-keyword: #c678dd !important;
+  --code-property: #9d527c !important;
+
+  // 인터랙티브 요소
+  --interactive-accent: #529d5273 !important;
+  --interactive-accent-hover: #37ff148c !important;
+  --scrollbar-thumb-bg: #529d52 !important;
+  --scrollbar-active-thumb-bg: #39ff14 !important;
+  --indentation-guide-color: #39ff14 !important;
+  --nav-item-color-active: #39ff14 !important;
+  --nav-indentation-guide-color: #529d52 !important;
+  --icon-color: #529d52 !important;
+}
+
+// 제목 스타일링 - 직접 색상 적용
+h1 {
+  color: var(--h1-color) !important;
+  border-bottom: 2px solid #128a12 !important;
+  padding-bottom: 2px !important;
+  font-size: 2rem !important;
+}
+
+h2.page-title,
+h2.page-title a,
+h2 {
+  color: var(--h2-color) !important;
+  border-bottom: 1px dashed #be7070 !important;
+  padding-bottom: 2px !important;
+  font-size: 1.75rem !important;
+}
+
+h3 {
+  color: var(--h3-color) !important;
+  border-bottom: 1px dotted #3d7676 !important;
+  padding-bottom: 2px !important;
+  font-size: 1.6rem !important;
+}
+
+h4 {
+  color: var(--h4-color) !important;
+  font-size: 1.4rem !important;
+}
+
+h5 {
+  color: var(--h5-color) !important;
+  font-size: 1.2rem !important;
+}
+
+h6 {
+  color: var(--h6-color) !important;
+  font-size: 1.1rem !important;
+}
+
+// 사이드바 제목 스타일
+.backlinks h3,
+.explorer h3,
+.graph h3,
+.toc h3 {
+  color: var(--h3-color) !important;
+  border-bottom: 1px dotted #3d7676 !important;
+  padding-bottom: 2px !important;
+}
+
+// 링크 색상 강제 적용
+a {
+  color: var(--link-color) !important;
+  
+  &:hover {
+    color: var(--link-color-hover) !important;
+  }
+  
+  &.external {
+    color: var(--link-external-color) !important;
+  }
+}
+
+// 강조 텍스트 색상
+strong {
+  color: var(--bold-color) !important;
+}
+
+em, i {
+  color: var(--italic-color) !important;
+}
 
 #quartz-body > div.center > div.popover-hint > div > div > ul > li > div > p > time {
   font-size: 14px;

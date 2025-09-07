@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
- *
+ * 
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
 const config: QuartzConfig = {
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#e8f5e9",
-          lightgray: "#c8e6c9",
-          gray: "#81c784",
-          darkgray: "#388e3c",
-          dark: "#1b5e20",
-          secondary: "#4caf50",
+          light: "#ffffff",
+          lightgray: "#f6f6f6",
+          gray: "#ababab",
+          darkgray: "#5c5c5c",
+          dark: "#222222",
+          secondary: "#529d52",
           tertiary: "#a5d6a7",
-          highlight: "rgba(76, 175, 80, 0.15)",
-          textHighlight: "#a5d6a788",
+          highlight: "rgba(82, 157, 82, 0.15)",
+          textHighlight: "#529d52b1",
         },
         darkMode: {
-          light: "#1b5e20",
-          lightgray: "#388e3c",
-          gray: "#81c784",
-          darkgray: "#c8e6c9",
-          dark: "#e8f5e9",
-          secondary: "#4caf50",
+          light: "#000000",
+          lightgray: "#242424",
+          gray: "#666666",
+          darkgray: "#b3b3b3",
+          dark: "#dadada",
+          secondary: "#529d52",
           tertiary: "#a5d6a7",
-          highlight: "rgba(76, 175, 80, 0.15)",
-          textHighlight: "#a5d6a788",
+          highlight: "rgba(82, 157, 82, 0.15)",
+          textHighlight: "#67c26769",
         },
       },
     },
@@ -88,7 +88,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
   },

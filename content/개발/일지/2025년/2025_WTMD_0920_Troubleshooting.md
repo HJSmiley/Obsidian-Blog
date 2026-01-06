@@ -4,7 +4,7 @@ draft: false
 tags:
   - 
 created: 2025-09-20T21:30
-updated: 2025-09-20T21:51
+updated: 2025-09-20T21:52
 ---
 # MacOS에서 Flutter SDK 설치 후 Android Studio에서 선택하기
 

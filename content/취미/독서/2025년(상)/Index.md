@@ -33,7 +33,7 @@ longform:
   sceneTemplate: templates/blog.md
   ignoredFiles: []
 created: 2025-09-07T14:02
-updated: 2025-09-07T17:00
+updated: 2025-09-07T23:24
 ---
 [[영화학개론]]
 

@@ -1,7 +1,7 @@
 ---
 title: Prologue
 created: 2025-09-06T14:54
-updated: 2025-09-06T22:09
+updated: 2025-09-14T22:46
 ---
 <div align="center">
     <h3>안녕하세요 👋, 저는 <a href="https://daraerang.com">멀위랑다래랑/Smiley</a>입니다!</h3>

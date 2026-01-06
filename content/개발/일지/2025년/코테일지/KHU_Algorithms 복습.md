@@ -1,12 +1,12 @@
 ---
 title: KHU_Algorithms 복습
-draft: false
+draft: true
 tags:
   - "#코테"
   - "#자료구조"
   - CPP
 created: 2025-09-11T15:49
-updated: 2025-09-11T16:01
+updated: 2026-01-06T19:12
 ---
 ## Hash
 - [ ] [1620](https://boj.kr/1620)

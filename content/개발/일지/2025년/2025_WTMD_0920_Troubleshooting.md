@@ -1,10 +1,10 @@
 ---
 title: 2025_WTMD_0920_Troubleshooting
-draft: false
+draft: true
 tags:
   - 
 created: 2025-09-20T21:30
-updated: 2025-09-20T21:52
+updated: 2026-03-16T03:18
 ---
 # MacOS에서 Flutter SDK 설치 후 Android Studio에서 선택하기
 

@@ -12,7 +12,7 @@ export const sharedPageComponents: SharedLayout = {
         // from data-repo
         repo: 'HJSmiley/Obsidian-Blog',
         // from data-repo-id
-        repoId: 'HJSmiley/Obsidian-Blog',
+        repoId: 'R_kgDOPqxufQ',
         // from data-category
         category: 'Announcements',
         // from data-category-id
